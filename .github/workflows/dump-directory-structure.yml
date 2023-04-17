@@ -65,21 +65,19 @@ jobs:
         run: |
           echo "pwd:"
           pwd
-          echo "ls:"
-          ls
-          echo "ls --help:"
-          ls --help
+          echo "dir:"
+          dir
           
           echo "----"
-          echo "ls -la ../:"
-          ls -la ../
+          echo "dir ..:"
+          dir ..
 
           echo "----"
           echo "cd .."
           cd ..
           pwd
-          echo "ls -la:"
-          ls -la
+          echo "dir:"
+          dir
           
           echo "----"
           cd github-actions-demo
