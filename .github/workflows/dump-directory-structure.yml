@@ -107,7 +107,22 @@ jobs:
           cd
           echo "dir *.*:"
           dir *.*
-          
+
+
+          echo "----"
+          echo "cd D:\a\github-actions-demo:"
+          cd D:\a\github-actions-demo
+          echo "dir *.*:"
+          dir *.*
+
+
+          echo "----"
+          echo "cd D:\a\github-actions-demo\github-actions-demo:"
+          cd D:\a\github-actions-demo\github-actions-demo
+          echo "dir *.*:"
+          dir *.*
+
+
           
 #          echo "----"
 #          echo "dir ..:"
