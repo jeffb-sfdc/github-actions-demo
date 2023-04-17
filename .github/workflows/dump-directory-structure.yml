@@ -121,6 +121,9 @@ jobs:
           cd D:\a\github-actions-demo\github-actions-demo
           echo "dir *.*:"
           dir *.*
+          echo "tree \:"
+          tree \
+          
 
 
           
