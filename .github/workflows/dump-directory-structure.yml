@@ -43,3 +43,8 @@ jobs:
           pwd
           echo "ls -la:"
           ls -la
+          
+          echo "----"
+          cd github-actions-demo
+          tree
+
