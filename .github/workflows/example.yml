@@ -11,12 +11,15 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
+
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+      
       - name: Display environemt
-      - run: echo "test"
-      - run: echo "test test"
-      - run: echo "node:test"
+      - run: |
+          echo "test"
+          echo "test test"
+          echo "node:test"
 
 
