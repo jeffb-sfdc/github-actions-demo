@@ -18,22 +18,5 @@ jobs:
       - run: echo "test"
       - run: echo "test test"
       - run: echo "node:test"
-#      - run: echo "node:${{ matrix.node-version }}"
-#      - run: echo "node:$(node --version)"
-
-
-# run: echo "node: ${{ node --version }}"
-# run: |
-# echo "node: " + node --version
-# echo "npm: " + npm --version
-# ls
-
-
-# Questions
-# bulk comment?
-# is yaml === yml?
-# when to use "-" ?
-# any experience with GHA's intellisence?  It doesn't seem to work very often.
-
 
 
