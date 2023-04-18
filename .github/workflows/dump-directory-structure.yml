@@ -33,9 +33,9 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Dump diectory structure
-        with:
-          node-version: ${{ matrix.node-version }}
-      - run: |
+        #with:
+          #node-version: ${{ matrix.node-version }}
+        run: |
           echo "pwd:"
           pwd
           echo "ls -la:"
