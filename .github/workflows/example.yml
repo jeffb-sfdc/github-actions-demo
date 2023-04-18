@@ -18,15 +18,15 @@ jobs:
       - run: echo "test"
       - run: echo "test test"
       - run: echo "node:test"
-      - run: echo "node:${{ matrix.node-version }}"
-      - run: echo "node:$(node --version)"
+#      - run: echo "node:${{ matrix.node-version }}"
+#      - run: echo "node:$(node --version)"
 
 
 # run: echo "node: ${{ node --version }}"
-#run: |
-#echo "node: " + node --version
-#echo "npm: " + npm --version
-#ls
+# run: |
+# echo "node: " + node --version
+# echo "npm: " + npm --version
+# ls
 
 
 # Questions
