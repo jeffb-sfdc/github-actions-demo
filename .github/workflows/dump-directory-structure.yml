@@ -35,6 +35,9 @@ jobs:
           echo "ls -la:"
           ls -la
           
+          touch foo.txt
+          ls -la
+          
           echo "----"
           echo "ls -la ../:"
           ls -la ../
