@@ -17,14 +17,15 @@ jobs:
       - name: Display environemt
         run: |
           node --version
+          npm --version
+          ls
 
-      
-
+    
 # Questions
 # bulk comment?
 # is yaml === yml?
 # when to use "-" ?
-# any experience with GHA intellisence?  It doesn't seem to work very often.
+# any experience with GHA's intellisence?  It doesn't seem to work very often.
 
 
 
