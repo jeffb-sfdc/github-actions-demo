@@ -17,7 +17,13 @@ jobs:
       - name: Display environemt
         run: |
           echo "test"
-          echo "test test"
+          echo "foo bar"
           echo "node:test"
+          echo "node" ${{ matrix.node-version }}
+          echo "node" node --version
+          echo "node" + ${{ matrix.node-version }}
+          echo "node" + node --version
+          echo "node:${{ matrix.node-version }}"
+          echo "node:$(node --version)"
 
 
