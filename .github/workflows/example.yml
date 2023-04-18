@@ -15,12 +15,20 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Display environemt
-        run: |
-          echo "node: " + node --version
-          echo "npm: " + npm --version
-          ls
+      - run: echo "test"
+      - run: echo "test test"
+      - run: echo "node:test"
+      - run: echo "node:${{ matrix.node-version }}"
+      - run: echo "node:$(node --version)"
 
-    
+
+# run: echo "node: ${{ node --version }}"
+#run: |
+#echo "node: " + node --version
+#echo "npm: " + npm --version
+#ls
+
+
 # Questions
 # bulk comment?
 # is yaml === yml?
