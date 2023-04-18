@@ -4,8 +4,11 @@ jobs:
   example-job
     runs-on: ubuntu-latest
     steps:
-      - uses:
-
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      
+      
+      
 
 # Questions
 # bulk comment?
