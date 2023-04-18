@@ -35,7 +35,7 @@ jobs:
           echo "ls -la:"
           ls -la
           
-          touch foo.txt
+          # touch foo.txt
           ls -la
           
           echo "----"
