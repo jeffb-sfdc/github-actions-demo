@@ -21,6 +21,10 @@ jobs:
     # The type of runner that the job will run on
     #runs-on: [macos-latest, ubuntu-latest, windows-latest]
     runs-on: macos-latest
+    
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -56,6 +60,11 @@ jobs:
           # there is no bulit-in tree command in macos
           # (need to run brew install tree)
           # is there an equivelent?
+          
+          
+          echo "----"
+          echo "node version:"
+          node --version
 
 
 
