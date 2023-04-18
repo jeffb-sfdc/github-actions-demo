@@ -26,10 +26,13 @@ jobs:
           echo "node:${{ matrix.node-version }}"
           echo "node:$(node --version)"
           if ${{ matrix.os == 'macos-latest' }}
-            then echo "this is running on MacOS"
+          then
+            echo "this is running on MacOS"
           if ${{ matrix.os == 'ubuntu-latest' }}
-            then echo "this is running on Ubuntu"
+          then
+            echo "this is running on Ubuntu"
           if ${{ matrix.os == 'windows-latest' }}
-            then echo "this is running on windows"
+          then
+            echo "this is running on windows"
 
 
