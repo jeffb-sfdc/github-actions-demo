@@ -25,14 +25,11 @@ jobs:
           #echo "node" + node --version
           echo "node:${{ matrix.node-version }}"
           echo "node:$(node --version)"
-          if [[ ${{ matrix.os == 'macos-latest'}} ]]; then
+
+          if [[ ((${{ matrix.os == 'macos-latest'}} == 'macos-latest')) ]]
+          then
             echo "this is running on MacOS"
           fi
-          if [[ ${{ matrix.os == 'ubuntu-latest'}} ]]; then
-            echo "this is running on Ubuntu"
-          fi
-          if [[ ${{ matrix.os == 'windows-latest'}} ]]; then
-            echo "this is running on windows"
-          fi
+
 
 
